@@ -7,9 +7,11 @@ btn1.addEventListener("click", (event) => {
     // console.log(event.target);
 })
 
-const form1 = document.querySelector("#form1")
+const form1 = document.querySelector("#form1");
 // const inp = document.querySelector("#inp1")
 // console.log(inp);
+console.log(form1);
+
 
 form1.addEventListener('submit', (ev) => {
     ev.preventDefault()
@@ -36,11 +38,11 @@ inpt.addEventListener("input", (ev) => {
 
 const mouseDiv = document.querySelector("#mousev")
 
-mouseDiv.addEventListener("mouseenter",(ev)=>{
+mouseDiv.addEventListener("mouseenter", (ev) => {
     mouseDiv.style.backgroundColor = "lightpink"
 })
 
-mouseDiv.addEventListener("mouseleave",(ev)=>{
+mouseDiv.addEventListener("mouseleave", (ev) => {
     mouseDiv.style.backgroundColor = "lightblue"
 })
 
@@ -53,14 +55,14 @@ mouseDiv.addEventListener("mouseleave",(ev)=>{
 const h1 = document.querySelector(".dummytxt")
 
 // For success
-document.querySelector("#success").addEventListener("click",()=>{
+document.querySelector("#success").addEventListener("click", () => {
     h1.classList.remove("dummytxt")
     h1.classList.remove("addFailure")
     h1.classList.add("addSuccess")
 })
 
 // For success
-document.querySelector("#failed").addEventListener("click",()=>{
+document.querySelector("#failed").addEventListener("click", () => {
     h1.classList.remove("dummytxt")
     h1.classList.remove("addSuccess")
     h1.classList.add("addFailure")
