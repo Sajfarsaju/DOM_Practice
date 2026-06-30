@@ -25,6 +25,10 @@ form1.addEventListener('submit', (ev) => {
     }
 })
 
+function NewFeature() {
+    console.log("OKOK");
+}
+
 
 // document.addEventListener("keyup", e => {
 //         console.log(e.key);
